@@ -1,0 +1,62 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    color: #435055;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    background: #A3F7BF;
+    height: 0px;
+    opacity: 0;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.accordion {
+    background: #435055;
+    background-size: 16px;
+    color: white;
+    padding: 5px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1111111;
+}
+
+    .accordion img {
+        position: absolute;
+        left: 13px;
+        top: 9px;
+        width: 16px;
+        transition:.4s;
+    }
+
+.show {
+    height: 100px;
+    padding: 10px 37px;
+    transition: .3s;
+}
+
+.hide {
+    max-height: 100px;
+    transition: .3s;
+}
+
+.opacity {
+    opacity: 1;
+}
+
+.accordion:hover {
+    color: #29A19C;
+}
+
+.rotate {
+    transform:rotate(90deg);
+}
